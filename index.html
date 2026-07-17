@@ -33,7 +33,7 @@
       </template>
     </a-assets>
 
-    <a-entity id="cameraRig" position="10 1.6 60" movement-controls="fly:true; speed:0.1;">
+    <a-entity id="cameraRig" position="10 1.6 60" movement-controls="fly:true; speed:0.15">
       <a-entity
         camera
         position="1 2 2"
@@ -45,7 +45,14 @@
     </a-entity>
 
     <a-entity
-      gltf-model="assets/dislocation.glb"
+      gltf-model="assets/large_DDD_model.glb"
+      position="10 0 10"
+      rotation="90 0 0"
+      scale="12 12 12"
+    ></a-entity>
+
+    <a-entity
+      gltf-model="assets/test.glb"
       position="10 0 10"
       rotation="90 0 0"
       scale="12 12 12"
